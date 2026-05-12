@@ -1,0 +1,173 @@
+#contact {
+  max-width: 100%;
+  padding: 0;
+  justify-self: center;
+
+  & h2 {
+    text-align: center;
+    font-size: 1.6rem;
+    color: $gold;
+    font-family: "Lora", serif;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-style: italic;
+    @include max-900 {
+      margin: 2rem;
+    }
+  }
+  & .contact-icons-container {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    & .contact-icons {
+      max-width: 50rem;
+      display: grid;
+      grid-template-columns: 1fr 1.4fr 1fr;
+      padding: 2rem 2rem 0 2rem;
+      @include max-900 {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+      }
+      // gap: 4rem;
+      & div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.6rem;
+        padding: 1rem;
+        color: $gold;
+      }
+      & div:nth-child(2) {
+        padding: 1rem 1.6rem;
+        border-left: 3px solid $gold;
+        border-right: 3px solid $gold;
+        @include max-900 {
+          border-left: none;
+          border-right: none;
+          border-top: 2px solid $gold;
+          border-bottom: 2px solid $gold;
+          padding: 2rem 0;
+        }
+      }
+      & .icon {
+        font-size: 2.2rem;
+        margin-bottom: 0.6rem;
+      }
+      & .icon-title {
+        text-transform: uppercase;
+        font-weight: 500;
+      }
+      & .icon-value {
+        color: $text--dark;
+        text-align: center;
+      }
+    }
+  }
+  & .contact-container {
+    margin: 0 auto;
+    max-width: 70rem;
+    width: 100%;
+    padding: 4rem 4rem 4.6rem 4rem;
+    // display: grid;
+    // grid-template-columns: 1fr 2fr;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    & .contact-description {
+      & p {
+        font-size: 1.1rem;
+        color: $text--dark;
+        margin-bottom: 1rem;
+        line-height: 1.3;
+      }
+      & a {
+        font-weight: 600;
+      }
+    }
+    @include max-700 {
+      padding: 2rem 2rem 2.6rem 2rem;
+    }
+    @include max-440 {
+      padding: 1rem;
+    }
+  }
+  & .section-header {
+    & p {
+      color: $gold;
+    }
+    & h3 {
+      color: $text--dark;
+      font-size: 1.8rem;
+    }
+  }
+  & form {
+    font-family: "Source Sans Pro", sans-serif;
+
+    color: $text--dark;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.373);
+    border-radius: 4px;
+    padding: 2rem;
+    @include max-440 {
+      padding: 1rem;
+    }
+    & label {
+      margin-bottom: 0.2rem;
+    }
+    & .form-row {
+      display: flex;
+      gap: 2rem;
+      @include max-700 {
+        flex-direction: column;
+        gap: 1rem;
+      }
+      & div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+      margin-bottom: 1rem;
+    }
+    & textarea {
+      margin-top: 0.2rem;
+      margin-bottom: 1rem;
+      resize: none;
+      padding: 0.36rem;
+      width: 100%;
+      height: 10rem;
+      font-family: "Source Sans Pro", sans-serif;
+    }
+    & textarea,
+    & input {
+      padding: 0.45rem;
+      font-size: 1rem;
+      color: $text--dark;
+      border: 1px solid $text;
+      border-radius: 2px;
+      &:focus {
+        outline: 3px solid $gold;
+        border: 1px solid transparent;
+      }
+    }
+    & button {
+      padding: 1rem 2rem;
+      background-color: $gold;
+      border: 1px solid $gold;
+      color: white;
+      transition: 0.3s;
+      text-transform: uppercase;
+      font-size: 1rem;
+      font-weight: 600;
+      @include max-700 {
+        width: 100%;
+      }
+      &:hover {
+        background-color: transparent;
+        color: $gold;
+      }
+    }
+  }
+}

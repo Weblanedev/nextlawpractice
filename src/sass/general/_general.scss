@@ -1,0 +1,52 @@
+html {
+  font-size: 110%;
+  @include max-1200 {
+    font-size: 100%;
+  }
+}
+.leaflet-container {
+  width: 100%;
+  height: 20rem;
+}
+.map {
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: "Lora", serif;
+}
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+  // margin-top: 100px;
+}
+button {
+  cursor: pointer;
+  font-family: "Source Sans Pro", serif;
+}
+a {
+  cursor: pointer;
+  font-family: "Source Sans Pro", serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Source Sans Pro", serif;
+  color: $text--dark;
+}
+.section-header {
+  border-left: 5px solid $gold;
+  padding-left: 0.6rem;
+  margin-bottom: 2rem;
+  & p {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 0.2rem;
+  }
+}

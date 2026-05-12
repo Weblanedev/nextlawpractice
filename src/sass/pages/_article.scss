@@ -1,0 +1,46 @@
+.article {
+  max-width: 50rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  & .article__header {
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+  }
+  & .article__image {
+    width: 100%;
+    max-height: 24rem;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  & .article__date {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+  & .article__text {
+    & h3 {
+      border-left: 3px solid $gold;
+      padding-left: 0.4rem;
+      margin-bottom: 1rem;
+      font-size: 1.4rem;
+    }
+    & ul {
+      list-style-type: disc;
+      margin-left: 1.4rem;
+      margin-bottom: 1rem;
+    }
+    & ol {
+      margin-left: 1.4rem;
+      margin-bottom: 1rem;
+    }
+    & li {
+      margin-bottom: 0.2rem;
+    }
+    & p {
+      color: $text--dark;
+      margin-bottom: 1rem;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+#hero {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://th.bing.com/th/id/R.558b594bc99d4f3dedc7b7223fa2b44f?rik=5%2bwWDRS3kO%2bs5A&pid=ImgRaw&r=0);
+  position: relative;
+  max-width: 100%;
+  & .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.757);
+
+    & .hero-text {
+      padding: 2rem;
+      & a {
+        text-transform: uppercase;
+        padding: 1rem 2rem;
+        background-color: $gold;
+        color: white;
+        border: 1px solid $gold;
+        margin-left: 3px;
+
+        transition: 0.2s;
+        font-weight: 600;
+        &:hover {
+          background-color: transparent;
+          color: $gold;
+        }
+      }
+    }
+    & h1 {
+      color: white;
+      font-size: 6rem;
+      line-height: 0.9;
+      margin-bottom: 1rem;
+      @include max-1000 {
+        font-size: 5rem;
+      }
+      @include max-440 {
+        font-size: 4rem;
+      }
+    }
+    & .pre-header {
+      font-style: italic;
+      margin-bottom: 0.6rem;
+      color: $gold;
+      font-weight: 500;
+      // letter-spacing: 0.8px;
+      font-size: 1.4rem;
+    }
+    & p {
+      margin-bottom: 2.8rem;
+      margin-left: 3px;
+    }
+  }
+}
