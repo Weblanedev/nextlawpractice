@@ -8,7 +8,7 @@ import { SECTORS_PAGE } from "@/content/pages/sectors";
 export const metadata: Metadata = {
   title: "Sectors",
   description:
-    "Industries NEXTLAW advises: energy, power, financial services, technology, infrastructure, consumer, healthcare, and other sectors across Nigeria and cross-border work.",
+    "Industries NEXTLAW advises: energy, power, financial services, technology, infrastructure, consumer, healthcare, and other sectors across domestic and cross-border work.",
   alternates: { canonical: "/sectors" },
 };
 

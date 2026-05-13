@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   manifest: "/manifest.json",
   openGraph: {
     type: "website",
-    locale: "en_NG",
+    locale: "en",
     url: SITE.url,
     siteName: SITE.name,
     title: `${SITE.name} | ${SITE.tagline}`,

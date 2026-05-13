@@ -6,7 +6,7 @@ import { InsightsList } from "@/components/insights/InsightsList";
 export const metadata: Metadata = {
   title: "Insights",
   description:
-    "Legal insights, alerts, and publications from NEXTLAW on Nigerian and cross-border corporate, finance, energy, disputes, tax, and regulatory topics.",
+    "Legal insights, alerts, and publications from NEXTLAW on corporate, finance, energy, disputes, tax, and regulatory topics.",
   alternates: { canonical: "/insights" },
 };
 

@@ -8,7 +8,7 @@ export const CONTACT_PAGE: PageContent = {
   ],
   sections: [
     {
-      id: "lagos-office",
+      id: "principal-office",
       eyebrow: "Offices",
       imageKey: "office",
       title: "Meetings by appointment",

@@ -24,7 +24,7 @@ export const ATTORNEY_EDITORIAL_SECTIONS: AttorneyEditorialSection[] = [
     title: "Senior practitioners who carry the mandate.",
     body: [
       "Partners and managing counsel lead client relationships and complex mandates across our core practices.",
-      "Profiles summarise practice emphasis and the types of work we routinely handle for Nigerian and international clients.",
+      "Profiles summarise practice emphasis and the types of work we routinely handle for domestic and international clients.",
     ],
     align: "left",
     tone: "white",

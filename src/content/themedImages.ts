@@ -57,8 +57,8 @@ export const THEMED_IMAGES = {
     alt: "Modern office interior with city skyline through the windows",
   },
   city: {
-    src: "/assets/welcome-to-our-city.jpg",
-    alt: "Lagos city scene representing local jurisdiction and commerce",
+    src: "/assets/land.jpg",
+    alt: "Open landscape representing growth, infrastructure, and commercial opportunity",
   },
 } as const;
 

@@ -18,24 +18,24 @@ const FEATURED_PUBLICATIONS: Array<{
   insightId?: string;
 }> = [
   {
-    id: "nuprc-ghg-methane",
-    insightId: "nuprc-ghg-methane",
+    id: "upstream-ghg-reporting-2026",
+    insightId: "upstream-ghg-reporting-2026",
     date: "13 April 2026",
     category: "Energy and Natural Resources",
     title:
-      "NUPRC Issues Directive on Standardised Templates and Measurement-Based Methane and GHG Reporting",
+      "Upstream directive on standardised methane and GHG reporting templates",
     summary:
       "Upstream operators must use standardised templates for GHG emissions management planning and report methane and GHG inventories on a measurement basis. The Directive shifts upstream emissions oversight to an auditable, evidence-driven framework.",
     imageKey: "land",
   },
   {
-    id: "lagos-blue-book-2026",
-    insightId: "lagos-blue-book-2026",
+    id: "land-fmv-schedule-2026",
+    insightId: "land-fmv-schedule-2026",
     date: "29 April 2026",
     category: "Real Estate",
-    title: "Lagos State Blue Book to Take Effect from 1 May 2026",
+    title: "Fair market value schedule updated for land transactions",
     summary:
-      "Following its five-year review of the Blue Book, the Lagos State Lands Bureau will roll out revised FMV rates from 1 May 2026, affecting Governor's Consent fees, land registration premiums, land use charge, and compensation across the State.",
+      "Following a periodic review, revised fair market value rates take effect from 1 May 2026, affecting consent fees, registration premiums, property charges, and compensation benchmarks tied to published schedules.",
     imageKey: "houseForSale",
   },
   {
@@ -44,7 +44,7 @@ const FEATURED_PUBLICATIONS: Array<{
     category: "Energy and Natural Resources",
     title: "NEXTLAW Transcripts: Energy and Natural Resources Digest",
     summary:
-      "Our quarterly digest highlights a more disciplined execution phase across Nigeria, with firmer regulation, active project delivery, and clearer investment signals across upstream, midstream, and gas-to-power.",
+      "Our quarterly digest highlights a more disciplined execution phase across energy markets, with firmer regulation, active project delivery, and clearer investment signals across upstream, midstream, and gas-to-power.",
     imageKey: "land",
   },
   {
@@ -53,14 +53,14 @@ const FEATURED_PUBLICATIONS: Array<{
     category: "Responsible Business",
     title: "Responsible Business Report 2025",
     summary:
-      "In 2025, our Nigerian responsible business work focused on access to justice, institutional strength, and talent development as a core part of how the firm creates value.",
+      "In 2025, our responsible business work focused on access to justice, institutional strength, and talent development as a core part of how the firm creates value.",
     imageKey: "child",
   },
   {
     id: "cross-border-product-liability",
     date: "28 April 2026",
     category: "Dispute Resolution",
-    title: "Jurisdiction in Cross-Border Product Liability Claims: The Nigerian Framework",
+    title: "Jurisdiction in Cross-Border Product Liability Claims: A Practical Framework",
     summary:
       "Jurisdiction is no longer a threshold technicality in cross-border product liability claims. It is a commercial lever that determines where claims are heard, how liability is framed, and the cost and exposure profile for cross-border businesses.",
     imageKey: "scales",
@@ -69,27 +69,27 @@ const FEATURED_PUBLICATIONS: Array<{
     id: "ndpa-update",
     date: "12 March 2026",
     category: "Data Protection",
-    title: "NDPC Enforcement Trends Under the Nigeria Data Protection Act",
+    title: "Data Protection Enforcement Trends Under Modern Privacy Statutes",
     summary:
-      "A practical review of recent NDPC enforcement priorities, common issues raised in audit cycles, and the controls Nigerian businesses are tightening in response.",
+      "A practical review of recent supervisory priorities, common issues raised in audit cycles, and the controls organisations are tightening in response.",
     imageKey: "scrabble",
   },
   {
     id: "fccpc-merger",
     date: "18 February 2026",
     category: "Competition and Antitrust",
-    title: "FCCPC Merger Review: What Investors Should Expect",
+    title: "Merger Review: What Investors Should Expect",
     summary:
-      "Timing, documentation, and competitive assessment under the FCCPC's current merger regime, with practical guidance for sponsors and corporate development teams.",
+      "Timing, documentation, and competitive assessment under current merger control regimes, with practical guidance for sponsors and corporate development teams.",
     imageKey: "signing",
   },
   {
     id: "white-collar-trends",
     date: "29 January 2026",
     category: "White Collar and Investigations",
-    title: "White Collar and Financial Crime Trends in Nigeria",
+    title: "White Collar and Financial Crime Trends",
     summary:
-      "EFCC, ICPC, and NFIU priorities, sector hot spots, and the controls in-house teams are putting in place to manage parallel global enforcement exposure.",
+      "Financial crime agency priorities, sector hot spots, and the controls in-house teams are putting in place to manage parallel global enforcement exposure.",
     imageKey: "bribery",
   },
 ];

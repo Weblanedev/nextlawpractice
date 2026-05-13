@@ -22,7 +22,7 @@ const PRACTICE_CONTACTS: Array<{ id: string; label: string; description: string 
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Contact NEXTLAW for new mandates, media enquiries, or general questions. Full service corporate, finance, disputes, energy, tax, and technology advice in Nigeria.",
+    "Contact NEXTLAW for new mandates, media enquiries, or general questions. Full service corporate, finance, disputes, energy, tax, and technology advice.",
   alternates: { canonical: "/contact-us" },
 };
 
@@ -79,7 +79,7 @@ export default function ContactUsPage() {
                   Hours
                 </dt>
                 <dd className="mt-2 text-[16px] leading-[1.7] text-neutral-800">
-                  Monday to Friday, 9:00 to 18:00 WAT.
+                  Monday to Friday, 9:00 to 18:00 (local time).
                 </dd>
               </div>
             </dl>

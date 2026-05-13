@@ -14,7 +14,7 @@ export const CAPABILITIES_PAGE: PageContent = {
       imageKey: "office",
       title: "Banking and Finance",
       body: [
-        "We act for lenders, borrowers, financial institutions, regulators, and corporate clients across the full spectrum of finance work in Nigeria.",
+        "We act for lenders, borrowers, financial institutions, regulators, and corporate clients across the full spectrum of finance work.",
         "Our team handles syndicated lending, acquisition finance, structured finance, securitisations, project finance, and debt restructurings, supporting transactions from term sheet through enforcement.",
       ],
     },
@@ -34,7 +34,7 @@ export const CAPABILITIES_PAGE: PageContent = {
       imageKey: "documents",
       title: "Mergers and Acquisitions",
       body: [
-        "We advise on public and private M&A, take-privates, carve-outs, and strategic investments across Nigerian and cross-border deals.",
+        "We advise on public and private M&A, take-privates, carve-outs, and strategic investments across domestic and cross-border deals.",
         "Our work spans due diligence, deal structuring, regulatory approvals, and post-completion integration, supported by strong sector knowledge in financial services, energy, FMCG, and technology.",
       ],
     },
@@ -44,7 +44,7 @@ export const CAPABILITIES_PAGE: PageContent = {
       imageKey: "scales",
       title: "Dispute Resolution",
       body: [
-        "Our litigators and arbitrators handle the most significant commercial disputes in the Nigerian market, including shareholder claims, contractual breaches, regulatory enforcement, and cross-border arbitration.",
+        "Our litigators and arbitrators handle significant commercial disputes, including shareholder claims, contractual breaches, regulatory enforcement, and cross-border arbitration.",
         "We provide pre-action strategy, settlement negotiation, advocacy, and award enforcement, with a focus on preserving commercial relationships wherever possible.",
       ],
     },
@@ -55,7 +55,7 @@ export const CAPABILITIES_PAGE: PageContent = {
       title: "Energy and Natural Resources",
       body: [
         "We support clients across the upstream, midstream, and downstream energy industry, including oil and gas, power, and the emerging energy transition.",
-        "Our work covers licensing, project documentation, gas sale and tolling arrangements, EPC contracting, project finance, and disputes, built on direct experience with Nigerian regulators.",
+        "Our work covers licensing, project documentation, gas sale and tolling arrangements, EPC contracting, project finance, and disputes, built on direct experience with sector regulators.",
       ],
     },
     {
@@ -64,8 +64,8 @@ export const CAPABILITIES_PAGE: PageContent = {
       imageKey: "bribery",
       title: "Investigations, White Collar and Compliance",
       body: [
-        "We conduct internal investigations into fraud, bribery, financial crime, and governance failures, and we advise on responses to regulatory and law-enforcement engagement in Nigeria.",
-        "Our compliance practice designs anti-bribery, sanctions, and AML programmes calibrated to Nigerian regulators and to multinational parent standards.",
+        "We conduct internal investigations into fraud, bribery, financial crime, and governance failures, and we advise on responses to regulatory and law-enforcement engagement.",
+        "Our compliance practice designs anti-bribery, sanctions, and AML programmes calibrated to local regulators and to multinational parent standards.",
       ],
     },
     {
@@ -74,8 +74,8 @@ export const CAPABILITIES_PAGE: PageContent = {
       imageKey: "documents",
       title: "Tax",
       body: [
-        "Our tax team advises on transaction structuring, withholding tax, transfer pricing, and engagement with the FIRS and state tax authorities.",
-        "We support audit defence, voluntary disclosures, and Tax Appeal Tribunal proceedings with a focus on outcomes that hold up commercially and on review.",
+        "Our tax team advises on transaction structuring, withholding tax, transfer pricing, and engagement with revenue authorities.",
+        "We support audit defence, voluntary disclosures, tribunal proceedings, and settlement discussions with a focus on outcomes that hold up commercially and on review.",
       ],
     },
     {
@@ -85,7 +85,7 @@ export const CAPABILITIES_PAGE: PageContent = {
       title: "Media, Entertainment, Technology and Intellectual Property",
       body: [
         "We advise on technology commercialisation, data protection, licensing, trademark protection, and content arrangements for media and entertainment clients.",
-        "Our IP practice supports brand owners, technology platforms, and creators with portfolio management, enforcement, and dispute strategy in Nigeria.",
+        "Our IP practice supports brand owners, technology platforms, and creators with portfolio management, enforcement, and dispute strategy.",
       ],
     },
     {
@@ -94,8 +94,8 @@ export const CAPABILITIES_PAGE: PageContent = {
       imageKey: "consultation",
       title: "Competition and Antitrust",
       body: [
-        "We provide pre-notification analysis, merger filings, and compliance counselling under the Federal Competition and Consumer Protection Act.",
-        "Our team supports clients through investigations and enforcement engagement with the FCCPC, with a focus on practical compliance design.",
+        "We provide pre-notification analysis, merger filings, and compliance counselling under applicable competition law.",
+        "Our team supports clients through investigations and enforcement engagement with competition authorities, with a focus on practical compliance design.",
       ],
     },
     {

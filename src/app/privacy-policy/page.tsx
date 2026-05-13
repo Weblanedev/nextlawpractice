@@ -14,7 +14,7 @@ import { SITE } from "@/content/site";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "How NEXTLAW collects, uses, shares, and protects personal data under the Nigeria Data Protection Act, 2023 and other applicable data protection laws.",
+    "How NEXTLAW collects, uses, shares, and protects personal data under applicable data protection laws.",
   alternates: { canonical: "/privacy-policy" },
 };
 
@@ -26,7 +26,7 @@ export default function PrivacyPolicyPage() {
         eyebrow="Legal"
         title="Privacy Policy"
         intro={[
-          "This Privacy Policy explains how NEXTLAW collects, uses, shares, and protects your personal data, and the choices and rights you have under Nigerian data-protection law.",
+          "This Privacy Policy explains how NEXTLAW collects, uses, shares, and protects your personal data, and the choices and rights you have under applicable data-protection law.",
         ]}
       >
         <LegalDoc lastUpdated="May 2026">
@@ -251,9 +251,9 @@ export default function PrivacyPolicyPage() {
 
           <LegalSection id="international-transfers" heading="11. International transfers">
             <p>
-              In the course of providing services, we may transfer personal data outside Nigeria.
-              We will only do so where (a) the destination country is recognised by the Nigeria
-              Data Protection Commission as providing an adequate level of protection, (b)
+              In the course of providing services, we may transfer personal data across borders.
+              We will only do so where (a) the destination is recognised by the competent supervisory
+              authority as providing an adequate level of protection, (b)
               appropriate safeguards are in place (such as contractual data-protection clauses), or
               (c) one of the lawful derogations under the Applicable Data Protection Law applies.
               In each case we take reasonable steps to ensure that personal data is handled
@@ -295,7 +295,7 @@ export default function PrivacyPolicyPage() {
                 <><strong>Data portability</strong> for personal data you have provided to us under a contract or with your consent and which is processed by automated means.</>,
                 <><strong>Object</strong> to processing carried out on the basis of our legitimate interests, including profiling, and to processing for direct marketing.</>,
                 <><strong>Withdraw consent</strong> at any time, without affecting the lawfulness of processing carried out before the withdrawal.</>,
-                <><strong>Lodge a complaint</strong> with the Nigeria Data Protection Commission (NDPC) if you consider that our processing of your personal data infringes the Applicable Data Protection Law.</>,
+                <><strong>Lodge a complaint</strong> with the competent supervisory authority if you consider that our processing of your personal data infringes the Applicable Data Protection Law.</>,
               ]}
             />
             <p>
@@ -328,7 +328,7 @@ export default function PrivacyPolicyPage() {
               If you have a complaint about how we process your personal data, please contact our
               Privacy Office in the first instance using the details in Section 21. We will work to
               resolve your concerns. If you are not satisfied with our response, you have the right
-              to lodge a complaint with the Nigeria Data Protection Commission.
+              to lodge a complaint with the competent supervisory authority.
             </p>
           </LegalSection>
 
@@ -383,7 +383,7 @@ export default function PrivacyPolicyPage() {
               rows={[
                 [
                   "Applicable Data Protection Law",
-                  "The Nigeria Data Protection Act, 2023, the Nigeria Data Protection Regulation (2019) and its Implementation Framework (2020), the General Application and Implementation Directive (GAID), and any other applicable Nigerian data-protection legislation.",
+                  "National data protection statutes, sector regulations, and supervisory guidance in force from time to time in the jurisdictions where we operate.",
                 ],
                 [
                   "Personal data",

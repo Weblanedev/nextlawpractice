@@ -8,7 +8,7 @@ import { ABOUT_PAGE } from "@/content/pages/about";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about NEXTLAW: a full service law firm advising on corporate, finance, disputes, energy, real estate, tax, and technology across Nigeria.",
+    "Learn about NEXTLAW: a full service law firm advising on corporate, finance, disputes, energy, real estate, tax, and technology across the markets we serve.",
   alternates: { canonical: "/about-us" },
 };
 

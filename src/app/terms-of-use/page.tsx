@@ -140,7 +140,7 @@ export default function TermsOfUsePage() {
             <p>
               We will not be liable for any loss or damage of any kind arising out of or in
               connection with your access to, use of, or inability to use this website, except
-              where such exclusion is prohibited by Nigerian law.
+              where such exclusion is prohibited by applicable mandatory law.
             </p>
           </LegalSection>
 
@@ -155,8 +155,8 @@ export default function TermsOfUsePage() {
 
           <LegalSection heading="10. Governing law">
             <p>
-              These terms and your use of this website are governed by the laws of the Federal
-              Republic of Nigeria. The courts of Nigeria have exclusive jurisdiction over any
+              These terms and your use of this website are governed by applicable law. The courts
+              with competent jurisdiction have exclusive jurisdiction over any
               dispute arising from or in connection with these terms or this website.
             </p>
           </LegalSection>

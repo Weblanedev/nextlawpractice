@@ -190,8 +190,8 @@ export default function CookiesPolicyPage() {
 
           <LegalSection heading="5. Personal data and cookies">
             <p>
-              Some of the information collected by cookies may amount to personal data under the
-              Nigeria Data Protection Act, 2023. For information on how we handle personal data,
+              Some of the information collected by cookies may amount to personal data under
+              applicable data protection legislation. For information on how we handle personal data,
               please review our{" "}
               <Link href="/privacy-policy" className="font-semibold text-[#c41e3a] hover:text-[#a01830]">
                 Privacy Policy
