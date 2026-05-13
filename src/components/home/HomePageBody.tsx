@@ -214,20 +214,6 @@ export function HomePageBody() {
         ]}
       />
 
-      {/* Careers — editorial split, image on the left for rhythm */}
-      <EditorialSection
-        eyebrow="Careers"
-        title="Culture is everything."
-        body={[
-          "We look for curious lawyers who take ownership, communicate clearly, and respect the institutions our clients depend on.",
-          "Training, feedback, and mentorship are structured — not accidental — so people can do their best work over a long career.",
-        ]}
-        ctas={[{ label: "Find out more", href: "/careers", primary: true }]}
-        imageIndex={3}
-        imageSide="left"
-        tone="cream"
-      />
-
       {/* Our people — editorial split, image on the right */}
       <EditorialSection
         eyebrow="Our People"
