@@ -1,3 +1,4 @@
+import { ContactUsForm } from "@/components/forms/ContactUsForm";
 import { PageShell } from "@/components/site/PageShell";
 import { ContentLayout } from "@/components/site/ContentLayout";
 import { SITE } from "@/content/site";
@@ -102,98 +103,7 @@ export default function ContactUsPage() {
               within one business day.
             </p>
 
-            <form
-              className="mt-8 grid gap-5"
-              name="contact-form"
-              method="POST"
-              action="/__forms.html"
-            >
-              <input type="hidden" name="form-name" value="contact-form" />
-              <input type="hidden" name="redirect" value="/contact-us?sent=1" />
-
-              <div className="grid gap-2">
-                <label
-                  className="text-[11px] font-semibold uppercase tracking-[0.18em] text-neutral-600"
-                  htmlFor="name"
-                >
-                  Name
-                </label>
-                <input
-                  className="rounded-md border border-black/15 bg-white px-3 py-2.5 text-sm outline-none focus:border-black"
-                  id="name"
-                  name="name"
-                  required
-                />
-              </div>
-
-              <div className="grid gap-2">
-                <label
-                  className="text-[11px] font-semibold uppercase tracking-[0.18em] text-neutral-600"
-                  htmlFor="email"
-                >
-                  Email
-                </label>
-                <input
-                  className="rounded-md border border-black/15 bg-white px-3 py-2.5 text-sm outline-none focus:border-black"
-                  id="email"
-                  name="email"
-                  type="email"
-                  required
-                />
-              </div>
-
-              <div className="grid gap-2">
-                <label
-                  className="text-[11px] font-semibold uppercase tracking-[0.18em] text-neutral-600"
-                  htmlFor="company"
-                >
-                  Company
-                </label>
-                <input
-                  className="rounded-md border border-black/15 bg-white px-3 py-2.5 text-sm outline-none focus:border-black"
-                  id="company"
-                  name="company"
-                />
-              </div>
-
-              <div className="grid gap-2">
-                <label
-                  className="text-[11px] font-semibold uppercase tracking-[0.18em] text-neutral-600"
-                  htmlFor="subject"
-                >
-                  Subject
-                </label>
-                <input
-                  className="rounded-md border border-black/15 bg-white px-3 py-2.5 text-sm outline-none focus:border-black"
-                  id="subject"
-                  name="subject"
-                  placeholder="Practice area or short topic"
-                />
-              </div>
-
-              <div className="grid gap-2">
-                <label
-                  className="text-[11px] font-semibold uppercase tracking-[0.18em] text-neutral-600"
-                  htmlFor="message"
-                >
-                  Message
-                </label>
-                <textarea
-                  className="min-h-36 rounded-md border border-black/15 bg-white px-3 py-2.5 text-sm outline-none focus:border-black"
-                  id="message"
-                  name="message"
-                />
-              </div>
-
-              <div className="pt-1">
-                <button
-                  type="submit"
-                  className="inline-flex items-center justify-center rounded-full bg-black px-6 py-3 text-sm font-semibold text-white hover:bg-neutral-800"
-                >
-                  Send message
-                </button>
-              </div>
-            </form>
+            <ContactUsForm />
           </div>
         </section>
 

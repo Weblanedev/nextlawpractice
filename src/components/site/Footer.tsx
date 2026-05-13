@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { NewsletterFormFooter } from "@/components/forms/NewsletterFormFooter";
 import { SITE } from "@/content/site";
 
 const FOOTER_LINKS: Array<{ label: string; href: string }> = [
@@ -22,32 +23,7 @@ export function Footer() {
           <div className="text-[11px] font-semibold uppercase tracking-[0.22em] text-neutral-400">
             Sign up for our newsletter
           </div>
-          <form
-            className="mt-4 flex w-full max-w-md flex-col gap-3 sm:flex-row sm:items-stretch"
-            method="POST"
-            action="/__forms.html"
-            name="newsletter-form"
-          >
-            <input type="hidden" name="form-name" value="newsletter-form" />
-            <input type="hidden" name="redirect" value="/" />
-            <label htmlFor="newsletter-email" className="sr-only">
-              Email
-            </label>
-            <input
-              id="newsletter-email"
-              name="email"
-              type="email"
-              required
-              placeholder="Your email address"
-              className="min-w-0 flex-1 rounded-md border border-white/15 bg-white/[0.06] px-3 py-2.5 text-sm text-white placeholder:text-neutral-500 focus:border-white/40 focus:outline-none"
-            />
-            <button
-              type="submit"
-              className="inline-flex shrink-0 items-center justify-center rounded-md bg-[#1f8fe0] px-4 py-2.5 text-sm font-semibold text-white hover:bg-[#1a7ec6]"
-            >
-              Subscribe Now
-            </button>
-          </form>
+          <NewsletterFormFooter />
         </div>
 
         <p className="mt-10 max-w-[860px] text-[14px] leading-[1.7] text-neutral-300 lg:mt-12">
