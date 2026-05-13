@@ -10,8 +10,8 @@ export default function InsightsPage() {
         eyebrow="Media and Insights"
         title="Insights"
         intro={[
-          "Updates, events, legal alerts, and publications from our team — written for clients who need to act, not just be informed.",
-          "Each piece is reviewed by a lead practitioner with first-hand experience in Nigerian commercial law.",
+          "Updates, events, legal alerts, and publications from our team, written for clients who need to act, not just be informed.",
+          "Each piece is reviewed by a lead practitioner with first-hand experience in Service law.",
         ]}
         contentWidth="wide"
       >

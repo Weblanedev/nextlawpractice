@@ -19,7 +19,7 @@ export function ContactUsForm() {
     try {
       // Best-effort Netlify POST (often 405 on `next dev`; still try on production).
       await submitNetlifyForm(form).catch(() => {});
-      toast.success("Message sent — we will be in touch shortly.");
+      toast.success("Message sent. We will be in touch shortly.");
       setModalOpen(true);
       form.reset();
     } finally {

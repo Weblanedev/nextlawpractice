@@ -1,7 +1,7 @@
 {
   "name": "NEXTLAW",
   "short_name": "NEXTLAW",
-  "description": "NEXTLAW is a commercial law firm based in Lagos, Nigeria.",
+  "description": "NEXTLAW is a Service law firm advising on banking and finance, corporate and commercial, disputes, energy, real estate, tax, and technology.",
   "icons": [
     { "src": "/favicon-32x32.png", "sizes": "32x32", "type": "image/png" },
     { "src": "/logo.jpg", "sizes": "any", "type": "image/jpeg" }

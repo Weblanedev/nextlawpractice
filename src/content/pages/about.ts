@@ -19,17 +19,17 @@ export type AboutQuote = string;
 
 export const ABOUT_PAGE = {
   eyebrow: "Who We Are",
-  title: "At the forefront of commercial law in Nigeria",
+  title: "At the forefront of Service law",
   intro: [
-    "NEXTLAW is a Nigerian commercial law firm, advising clients across sectors to provide practical and insightful solutions to their most pressing business challenges.",
-    "We apply initiative thinking to develop commercially grounded advice for business leaders, regulated institutions, and disruptors operating in Nigeria.",
-    "Our clients include global and regional businesses, market disruptors, and some of Nigeria's most exciting growth companies. We advise energy firms, leading financial institutions, manufacturers, technology businesses, and a broad range of other clients — and we act on the most significant transactions and disputes in our market.",
+    "NEXTLAW is a Service law firm, advising clients across sectors to provide practical and insightful solutions to their most pressing business challenges.",
+    "We apply initiative thinking to develop commercially grounded advice for business leaders, regulated institutions, and disruptors operating in demanding markets.",
+    "Our clients include global and regional businesses, market disruptors, and some of the most exciting growth companies in our markets. We advise energy firms, leading financial institutions, manufacturers, technology businesses, and a broad range of other clients, and we act on the most significant transactions and disputes we see.",
   ],
   vision: {
     eyebrow: "Our Vision",
     title: "To be the legal advisers of choice for the industry leaders of today and tomorrow",
     body: [
-      "NEXTLAW was founded to address a clear gap in the Nigerian market: high-quality legal advice delivered with an unmistakable commercial imperative.",
+      "NEXTLAW was founded to address a clear gap in the market: high-quality legal advice delivered with an unmistakable commercial imperative.",
       "We have built the firm around that single idea, and we have never lost the commercial focus that drives it.",
     ],
   },
@@ -40,29 +40,29 @@ export const ABOUT_PAGE = {
   },
   stats: [
     { value: "Tier 1", label: "ambition across each of our core practice groups." },
-    { value: "Nigeria", label: "focused: every mandate is led from our Lagos office." },
+    { value: "Focused", label: "delivery: every mandate is led with clear partner ownership." },
     { value: "Sector-led", label: "teams aligned to the industries we advise." },
   ],
   whatWeDo: {
     eyebrow: "What We Do",
     title: "We solve problems",
     body:
-      "We solve complex problems for industry leaders and disruptors. Our clients include energy firms, financial institutions, technology businesses, and some of Nigeria's most ambitious growth companies.",
+      "We solve complex problems for industry leaders and disruptors. Our clients include energy firms, financial institutions, technology businesses, and some of the most ambitious growth companies we serve.",
     pillars: [
       {
         id: "complexity",
         title: "Relishing complexity",
-        body: "We welcome difficult matters and look for new, practical answers — not formulaic responses.",
+        body: "We welcome difficult matters and look for new, practical answers, not formulaic responses.",
       },
       {
         id: "quality",
         title: "Quality legal advice",
-        body: "We work alongside leading global firms on Nigerian aspects of significant cross-border transactions and disputes.",
+        body: "We work alongside leading global firms on local aspects of significant cross-border transactions and disputes.",
       },
       {
         id: "expertise",
         title: "Deep local expertise",
-        body: "We help clients navigate the realities of Nigeria's legal, regulatory, and commercial landscape with confidence.",
+        body: "We help clients navigate the realities of the legal, regulatory, and commercial landscape with confidence.",
       },
     ],
   },
@@ -73,7 +73,7 @@ export const ABOUT_PAGE = {
     body: [
       "Our advice is rooted in a careful understanding of the client, their industry, and the commercial challenge in front of them.",
       "We embrace new challenges, welcome complexity, and bring fresh thinking to the most pressing matters our clients face.",
-      "We pride ourselves on advice that is concise, impactful, and practical — never lost in legal abstraction.",
+      "We pride ourselves on advice that is concise, impactful, and practical, and never lost in legal abstraction.",
     ],
   },
   values: {
@@ -96,7 +96,7 @@ export const ABOUT_PAGE = {
         id: "practical",
         title: "Practical",
         body:
-          "We pair intellectual rigour with advice that is actionable, enforceable, and ready to apply on the ground in Nigeria.",
+          "We pair intellectual rigour with advice that is actionable, enforceable, and ready to apply on the ground for our clients.",
       },
       {
         id: "collaborative",
@@ -110,23 +110,23 @@ export const ABOUT_PAGE = {
     eyebrow: "Awards",
     title: "A growing track record of recognised work",
     items: [
-      { title: "Banking and Finance — Recognised", source: "Leading Directories" },
-      { title: "Capital Markets — Recognised", source: "Leading Directories" },
-      { title: "Energy and Natural Resources — Recognised", source: "Leading Directories" },
-      { title: "Dispute Resolution — Recognised", source: "Leading Directories" },
-      { title: "Mergers and Acquisitions — Recognised", source: "Leading Directories" },
+      { title: "Banking and Finance (Recognised)", source: "Leading Directories" },
+      { title: "Capital Markets (Recognised)", source: "Leading Directories" },
+      { title: "Energy and Natural Resources (Recognised)", source: "Leading Directories" },
+      { title: "Dispute Resolution (Recognised)", source: "Leading Directories" },
+      { title: "Mergers and Acquisitions (Recognised)", source: "Leading Directories" },
     ] as AboutAward[],
   },
   reputation: {
     eyebrow: "Our Reputation",
     title: "What clients tell us",
     quotes: [
-      "Considered one of the firms Nigerian and international clients reach for first on commercial mandates.",
+      "Considered one of the firms that domestic and international clients reach for first on commercial mandates.",
       "Particularly strong on finance, project, and infrastructure work, acting confidently for both lender and borrower sides.",
       "Highly capable in contentious work, with broad experience across the courts and in arbitration.",
       "Clear advice on how to manage risk and avoid pitfalls, with a strong commercial lens applied to legal questions.",
-      "A deep understanding of the Nigerian regulatory environment and a strong reputation in oil and gas, power, and infrastructure.",
-      "A respected M&A capability that continues to attract significant cross-border work into Nigeria.",
+      "A deep understanding of the regulatory environment and a strong reputation in oil and gas, power, and infrastructure.",
+      "A respected M&A capability that continues to attract significant cross-border work into our markets.",
     ] as AboutQuote[],
   },
   discoverMore: {
@@ -153,7 +153,7 @@ export const ABOUT_PAGE = {
     title: "Engaging with and supporting our communities",
     body: [
       "We support initiatives focused on access to justice, institutional strength, and talent development as a core part of how we create value.",
-      "We uphold strict confidentiality and conflict checks, and we operate with an ethics-first mindset on every engagement — with a continuing commitment to pro bono work and capacity building in Nigeria.",
+      "We uphold strict confidentiality and conflict checks, and we operate with an ethics-first mindset on every engagement, with a continuing commitment to pro bono work and community capacity building.",
     ],
   },
 } as const;

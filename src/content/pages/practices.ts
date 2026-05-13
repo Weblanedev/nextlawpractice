@@ -1,6 +1,6 @@
 import type { AccordionGroup } from "@/components/site/AccordionSection";
 
-const KC = "NEXTLAW — Lagos";
+const KC = "NEXTLAW";
 
 type P = { title: string; body: string[] };
 
@@ -9,7 +9,7 @@ const P: Record<string, P> = {
     title: "Banking",
     body: [
       "We act for Nigerian and international banks, development finance institutions, and corporate borrowers on syndicated lending, bilateral facilities, and structured finance transactions.",
-      "Our team supports trade finance, working capital, acquisition finance, and asset-based lending — drafting and negotiating credit, security, and inter-creditor arrangements.",
+      "Our team supports trade finance, working capital, acquisition finance, and asset-based lending, drafting and negotiating credit, security, and inter-creditor arrangements.",
     ],
   },
   "capital-markets": {
@@ -195,8 +195,8 @@ export const PRACTICES_PAGE = {
   title: "Innovative thinking to develop practical and insightful solutions",
   eyebrow: "Practices",
   intro: [
-    "At NEXTLAW, we pride ourselves on sector strengths across corporate and commercial, energy and natural resources, telecommunications, foreign investment, shipping and maritime, aviation, taxation, commercial litigation, alternative dispute resolution, and project finance — all delivered with a Nigeria-first lens.",
-    "Each practice group combines technical depth with commercial judgement, supporting clients on transactions, advisory work, and disputes from inception to outcome.",
+    "At NEXTLAW, we pride ourselves on sector strengths across corporate and commercial, energy and natural resources, telecommunications, foreign investment, shipping and maritime, aviation, taxation, commercial litigation, alternative dispute resolution, and project finance, all delivered with a service-first lens.",
+    "Each practice group combines technical depth with practical judgement, supporting clients on transactions, advisory work, and disputes from inception to outcome.",
   ],
   groups: [
     {

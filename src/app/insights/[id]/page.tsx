@@ -58,7 +58,7 @@ export default async function InsightArticlePage({
       <main className="min-w-0 bg-[#fafaf8] pb-16">
         <SectionBanner
           title="News & Events"
-          body="Updates, alerts, and analysis from our team across Nigerian commercial law."
+          body="Updates, alerts, and analysis from our team across Service law."
         />
 
         <div className="border-b border-black/10 bg-white">
@@ -246,7 +246,7 @@ export default async function InsightArticlePage({
                 Stay informed
               </h3>
               <p className="mt-4 text-[15px] leading-relaxed text-neutral-700">
-                Receive our regulatory and transactional updates by email — no marketing, just the
+                Receive our regulatory and transactional updates by email, with no marketing, just the
                 substance.
               </p>
               <form className="mt-6 flex gap-2">

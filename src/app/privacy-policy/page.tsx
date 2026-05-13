@@ -31,7 +31,7 @@ export default function PrivacyPolicyPage() {
         <LegalDoc lastUpdated="May 2026">
           <LegalSection id="who-we-are" heading="1. Who we are">
             <p>
-              {SITE.name} is a Nigerian commercial law firm. We are committed to protecting your
+              {SITE.name} is a Service law firm. We are committed to protecting your
               privacy and to processing your personal data in line with the Applicable Data
               Protection Law (defined in Section 22 below). References in this policy to “we”,
               “us”, “our” or the “Firm” are to {SITE.name}; references to “you” are to any natural
@@ -286,7 +286,7 @@ export default function PrivacyPolicyPage() {
             </p>
             <LegalList
               items={[
-                <><strong>To be informed</strong> about how we process your personal data — this Privacy Policy is designed to give you that information.</>,
+                <><strong>To be informed</strong> about how we process your personal data. This Privacy Policy is designed to give you that information.</>,
                 <><strong>Access</strong> a copy of the personal data we hold about you.</>,
                 <><strong>Rectification</strong> of personal data that is inaccurate or incomplete.</>,
                 <><strong>Erasure</strong> of personal data where there is no overriding lawful reason for us to continue processing it.</>,
@@ -364,7 +364,7 @@ export default function PrivacyPolicyPage() {
                   </a>
                 </>,
                 <>
-                  Post: {SITE.name}, {SITE.contact.addressLine}, Lagos, Nigeria.
+                  Post: {SITE.name}, {SITE.contact.addressLine}.
                 </>,
                 <>
                   Telephone:{" "}
@@ -393,7 +393,7 @@ export default function PrivacyPolicyPage() {
                 ],
                 [
                   "Processing",
-                  "Any operation or set of operations performed on personal data, whether or not by automated means — including collection, recording, organisation, storage, retrieval, use, disclosure, and erasure.",
+                  "Any operation or set of operations performed on personal data, whether or not by automated means, including collection, recording, organisation, storage, retrieval, use, disclosure, and erasure.",
                 ],
                 [
                   "Data controller",

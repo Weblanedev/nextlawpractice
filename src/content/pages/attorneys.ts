@@ -11,7 +11,7 @@ export type AttorneyEditorialSection = {
 export const ATTORNEYS_PAGE: PageContent = {
   title: "Attorneys",
   intro: [
-    "Partner-led teams across corporate, finance, disputes, energy, tax, and investigations — with clear ownership from instruction to completion.",
+    "Partner-led teams across corporate, finance, disputes, energy, tax, and investigations, with clear ownership from instruction to completion.",
     "Profiles and imagery will be added as the directory is finalised.",
   ],
   sections: [],

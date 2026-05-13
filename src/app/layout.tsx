@@ -6,21 +6,21 @@ import { SITE } from "@/content/site";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: `${SITE.name} — ${SITE.tagline}`,
+    default: `${SITE.name} | ${SITE.tagline}`,
     template: `%s | ${SITE.name}`,
   },
   description: SITE.description,
   applicationName: SITE.name,
   generator: "Next.js",
   keywords: [
-    "Nigerian law firm",
-    "Lagos lawyers",
-    "commercial law Nigeria",
-    "banking and finance Nigeria",
-    "dispute resolution Nigeria",
-    "energy law Nigeria",
-    "real estate law Nigeria",
-    "tax law Nigeria",
+    "Service law firm",
+    "corporate lawyers",
+    "banking and finance law",
+    "dispute resolution",
+    "energy law",
+    "real estate law",
+    "tax law",
+    "technology law",
     "NEXTLAW",
   ],
   authors: [{ name: SITE.name }],
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     locale: "en_NG",
     url: SITE.url,
     siteName: SITE.name,
-    title: `${SITE.name} — ${SITE.tagline}`,
+    title: `${SITE.name} | ${SITE.tagline}`,
     description: SITE.description,
     images: [
       {
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${SITE.name} — ${SITE.tagline}`,
+    title: `${SITE.name} | ${SITE.tagline}`,
     description: SITE.description,
     images: ["/logo.jpg"],
   },

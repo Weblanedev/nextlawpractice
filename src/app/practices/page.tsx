@@ -24,8 +24,7 @@ export default function PracticesPage() {
             Sectors and insights
           </h2>
           <p className="mt-4 max-w-[640px] text-[15px] leading-relaxed text-neutral-700">
-            Explore the industries we advise and our latest publications and alerts from Nigerian
-            commercial law.
+            Explore the industries we advise and our latest publications and alerts across Service law.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <Link

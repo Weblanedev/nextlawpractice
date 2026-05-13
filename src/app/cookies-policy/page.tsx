@@ -79,7 +79,7 @@ export default function CookiesPolicyPage() {
 
           <LegalSection heading="3. How we use cookies">
             <p>
-              We use cookies for website analytics — to understand visit patterns and identify
+              We use cookies for website analytics, to understand visit patterns and identify
               areas where we can improve the website. Details of the cookies we use are set out
               below.
             </p>

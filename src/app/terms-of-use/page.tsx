@@ -29,7 +29,7 @@ export default function TermsOfUsePage() {
         <LegalDoc lastUpdated="May 2026">
           <LegalSection heading="1. About this website">
             <p>
-              This website is operated by {SITE.name}, a Nigerian commercial law firm with its
+              This website is operated by {SITE.name}, a Service law firm with its
               principal office at {SITE.contact.addressLine}. References in these terms to “we”,
               “us”, “our” or the “Firm” are to {SITE.name}. References to “you” are to any natural
               or legal person accessing this website.
@@ -170,7 +170,7 @@ export default function TermsOfUsePage() {
               >
                 {SITE.contact.email}
               </a>{" "}
-              or write to us at {SITE.contact.addressLine}, Lagos, Nigeria.
+              or write to us at {SITE.contact.addressLine}.
             </p>
           </LegalSection>
         </LegalDoc>

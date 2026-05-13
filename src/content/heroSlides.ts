@@ -22,7 +22,7 @@ export const HERO_SLIDES: HeroSlide[] = [
     circleImage: THEMED_IMAGES.scrabble.src,
   },
   {
-    title: "At the forefront of commercial law in Nigeria.",
+    title: "At the forefront of Service law.",
     href: "/capabilities",
     cta: "Explore capabilities",
     bgImage: THEMED_IMAGES.office.src,
@@ -36,7 +36,7 @@ export const HERO_SLIDES: HeroSlide[] = [
     circleImage: THEMED_IMAGES.scales.src,
   },
   {
-    title: "Action-oriented insight on Nigerian law.",
+    title: "Action-oriented insight on Service law.",
     href: "/insights",
     cta: "Read insights",
     bgImage: THEMED_IMAGES.documents.src,

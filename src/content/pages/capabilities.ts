@@ -4,7 +4,7 @@ export const CAPABILITIES_PAGE: PageContent = {
   title: "Capabilities",
   intro: [
     "Solutions across the spectrum of legal services.",
-    "Our practice groups combine deep technical knowledge of Nigerian law with the commercial judgement clients need to make confident decisions.",
+    "Our practice groups combine deep technical knowledge of the law with the practical judgement clients need to make confident decisions.",
     "Each engagement is delivered with disciplined execution, clear assumptions, and predictable timelines.",
   ],
   sections: [
@@ -15,7 +15,7 @@ export const CAPABILITIES_PAGE: PageContent = {
       title: "Banking and Finance",
       body: [
         "We act for lenders, borrowers, financial institutions, regulators, and corporate clients across the full spectrum of finance work in Nigeria.",
-        "Our team handles syndicated lending, acquisition finance, structured finance, securitisations, project finance, and debt restructurings — supporting transactions from term sheet through enforcement.",
+        "Our team handles syndicated lending, acquisition finance, structured finance, securitisations, project finance, and debt restructurings, supporting transactions from term sheet through enforcement.",
       ],
     },
     {
@@ -35,7 +35,7 @@ export const CAPABILITIES_PAGE: PageContent = {
       title: "Mergers and Acquisitions",
       body: [
         "We advise on public and private M&A, take-privates, carve-outs, and strategic investments across Nigerian and cross-border deals.",
-        "Our work spans due diligence, deal structuring, regulatory approvals, and post-completion integration — supported by strong sector knowledge in financial services, energy, FMCG, and technology.",
+        "Our work spans due diligence, deal structuring, regulatory approvals, and post-completion integration, supported by strong sector knowledge in financial services, energy, FMCG, and technology.",
       ],
     },
     {
@@ -45,7 +45,7 @@ export const CAPABILITIES_PAGE: PageContent = {
       title: "Dispute Resolution",
       body: [
         "Our litigators and arbitrators handle the most significant commercial disputes in the Nigerian market, including shareholder claims, contractual breaches, regulatory enforcement, and cross-border arbitration.",
-        "We provide pre-action strategy, settlement negotiation, advocacy, and award enforcement — with a focus on preserving commercial relationships wherever possible.",
+        "We provide pre-action strategy, settlement negotiation, advocacy, and award enforcement, with a focus on preserving commercial relationships wherever possible.",
       ],
     },
     {
@@ -55,7 +55,7 @@ export const CAPABILITIES_PAGE: PageContent = {
       title: "Energy and Natural Resources",
       body: [
         "We support clients across the upstream, midstream, and downstream energy industry, including oil and gas, power, and the emerging energy transition.",
-        "Our work covers licensing, project documentation, gas sale and tolling arrangements, EPC contracting, project finance, and disputes — built on direct experience with Nigerian regulators.",
+        "Our work covers licensing, project documentation, gas sale and tolling arrangements, EPC contracting, project finance, and disputes, built on direct experience with Nigerian regulators.",
       ],
     },
     {

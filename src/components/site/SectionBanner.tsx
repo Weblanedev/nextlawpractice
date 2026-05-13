@@ -18,7 +18,7 @@ const TONE_BG: Record<NonNullable<SectionBannerProps["tone"]>, string> = {
 
 /**
  * Full-bleed banner section with a subtle diagonal-dash pattern overlay,
- * left vertical rule, and large uppercase title — modelled on Aluko & Oyebode style.
+ * left vertical rule, and large uppercase title, modelled on Aluko & Oyebode style.
  */
 export function SectionBanner({
   title,
@@ -103,8 +103,8 @@ type QuoteBannerProps = {
 };
 
 /**
- * Wine-red quote panel with gold accent rule and a static dots row — visual
- * companion to SectionBanner, modelled on the recognition strip in screenshot 2.
+ * Wine-red quote panel with gold accent rule and a static dots row. Visual companion to
+ * SectionBanner, modelled on the recognition strip in screenshot 2.
  */
 export function QuoteBanner({ slides }: QuoteBannerProps) {
   if (!slides.length) return null;

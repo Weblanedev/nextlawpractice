@@ -27,7 +27,7 @@ export function Footer() {
         </div>
 
         <p className="mt-10 max-w-[860px] text-[14px] leading-[1.7] text-neutral-300 lg:mt-12">
-          NEXTLAW is a commercial law firm based in Lagos, Nigeria. Our practice areas include
+          NEXTLAW is a Service law firm. Our practice areas include
           banking and finance, capital markets, corporate and commercial, dispute resolution,
           energy and natural resources, real estate, tax, and technology. Contact our team to
           discuss your matter.

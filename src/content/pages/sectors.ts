@@ -1,6 +1,6 @@
 import type { AccordionGroup } from "@/components/site/AccordionSection";
 
-const KC = "NEXTLAW — Lagos";
+const KC = "NEXTLAW";
 
 type S = { title: string; body: string[] };
 
@@ -16,7 +16,7 @@ const S: Record<string, S> = {
     title: "Power and Infrastructure",
     body: [
       "We have extensive experience advising private developers, lenders, and government counterparties on Nigeria's power sector, from generation and transmission to embedded and off-grid power.",
-      "Our infrastructure work spans roads, ports, water, and social infrastructure — covering financing, concession arrangements, EPC documentation, and regulatory consents.",
+      "Our infrastructure work spans roads, ports, water, and social infrastructure, covering financing, concession arrangements, EPC documentation, and regulatory consents.",
     ],
   },
   "energy-transition": {
@@ -51,7 +51,7 @@ const S: Record<string, S> = {
     title: "Project Finance",
     body: [
       "Our project finance specialists advise on all aspects of project finance in Nigeria, from limited recourse structuring to inter-creditor and security arrangements.",
-      "We have supported sponsors and lenders on landmark infrastructure, power, and natural resource financings — coordinating multilateral, DFI, and commercial bank participation.",
+      "We have supported sponsors and lenders on landmark infrastructure, power, and natural resource financings, coordinating multilateral, DFI, and commercial bank participation.",
     ],
   },
   telecoms: {
@@ -86,7 +86,7 @@ const S: Record<string, S> = {
     title: "Insurance",
     body: [
       "We advise insurers, reinsurers, and brokers operating in Nigeria across product distribution, regulatory engagement with NAICOM, and disputes.",
-      "Our work spans capital, liquidity, investment, and product launch — including bancassurance, micro-insurance, and InsurTech distribution channels.",
+      "Our work spans capital, liquidity, investment, and product launch, including bancassurance, micro-insurance, and InsurTech distribution channels.",
     ],
   },
   manufacturing: {
@@ -154,7 +154,7 @@ export const SECTORS_PAGE = {
   eyebrow: "Sectors",
   intro: [
     "Solving complex problems for industry leaders and disruptors.",
-    "We relish complexity, constantly looking for new and innovative solutions. Our sector teams blend technical legal expertise with direct industry knowledge of the Nigerian market.",
+    "We relish complexity, constantly looking for new and innovative solutions. Our sector teams blend technical legal expertise with direct industry knowledge of the markets we advise.",
     "We have advised on some of the largest transactions in the region and hold close working relationships with leading global law firms supporting cross-border mandates.",
   ],
   groups: [
@@ -162,14 +162,14 @@ export const SECTORS_PAGE = {
       id: "energy-power-transition",
       heading: "Energy, power and transition",
       description:
-        "Upstream to downstream oil and gas, electricity markets, renewables, and critical minerals — with a focus on Nigerian regulators and project delivery.",
+        "Upstream to downstream oil and gas, electricity markets, renewables, and critical minerals, with a focus on regulators and project delivery.",
       items: items(["energy", "power", "energy-transition", "mining"]),
     },
     {
       id: "financial-capital",
       heading: "Financial services and capital",
       description:
-        "Banks, fintechs, insurers, and capital markets and project finance transactions shaping the Nigerian economy.",
+        "Banks, fintechs, insurers, and capital markets and project finance transactions shaping our clients' markets.",
       items: items([
         "financial-institutions",
         "fintech",
@@ -189,7 +189,7 @@ export const SECTORS_PAGE = {
       id: "industrials-life-sciences",
       heading: "Industrials, consumer and life sciences",
       description:
-        "Manufacturing, FMCG, chemicals, and healthcare — where regulatory compliance meets commercial growth.",
+        "Manufacturing, FMCG, chemicals, and healthcare, where regulatory compliance meets commercial growth.",
       items: items(["manufacturing", "fmcg", "chemicals", "healthcare"]),
     },
     {

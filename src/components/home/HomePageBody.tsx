@@ -132,7 +132,7 @@ export function HomePageBody() {
     <div className="bg-white pb-20 pt-0">
       <SectionBanner
         title="International Standards, Local Expertise"
-        body="Clients come to NEXTLAW for deep knowledge of Nigerian law alongside a working understanding of the industries they operate in — built through direct experience, not academic distance."
+        body="Clients come to NEXTLAW for deep knowledge of the law alongside a working understanding of the industries they operate in, built through direct experience, not academic distance."
       />
 
       <div className="mx-auto max-w-[1080px] px-6 lg:px-10">
@@ -144,7 +144,7 @@ export function HomePageBody() {
         <section className="mt-14 border-t border-black/10 pt-16">
           <SectionEyebrow>News and publications</SectionEyebrow>
           <h2 className="mt-4 max-w-[820px] font-serif text-[2rem] font-semibold leading-[1.15] text-neutral-900 md:text-[2.5rem] lg:text-[2.75rem]">
-            What we are reading, writing, and watching across Nigerian law.
+            What we are reading, writing, and watching across Service law.
           </h2>
 
           <div className="mt-12 grid gap-10 md:grid-cols-2">
@@ -182,13 +182,13 @@ export function HomePageBody() {
 
       </div>
 
-      {/* About — editorial split */}
+      {/* About: editorial split */}
       <EditorialSection
         eyebrow="About Us"
-        title="A Nigerian law firm built for the work that follows the headlines."
+        title="A law firm built for the work that follows the headlines."
         body={[
-          `${brand} advises on the transactions, disputes, and regulatory questions that shape how business gets done in Nigeria. Our work spans corporate and finance, energy and natural resources, real estate, technology, tax, and dispute resolution.`,
-          "We combine rigorous technical work with practical judgment, so decisions hold up under scrutiny from boards, regulators, and counterparties — and so clients can act on advice, not just receive it.",
+          `${brand} advises on the transactions, disputes, and regulatory questions that shape how business gets done. Our work spans corporate and finance, energy and natural resources, real estate, technology, tax, and dispute resolution.`,
+          "We combine rigorous technical work with practical judgment, so decisions hold up under scrutiny from boards, regulators, and counterparties, and so clients can act on advice, not just receive it.",
         ]}
         ctas={[
           { label: "Who we are", href: "/about-us", primary: true },
@@ -203,24 +203,24 @@ export function HomePageBody() {
         slides={[
           {
             quote:
-              "Rigorous technical work paired with practical judgment — advice clients can act on, not just receive.",
-            source: `${SITE.name} · Lagos, Nigeria`,
+              "Rigorous technical work paired with practical judgment, advice clients can act on, not just receive.",
+            source: SITE.name,
           },
           {
             quote:
-              "From banking and finance to energy, real estate, tax and disputes — we work on the matters that shape how business gets done in Nigeria.",
-            source: `${SITE.name} · Lagos, Nigeria`,
+              "From banking and finance to energy, real estate, tax and disputes, we work on the matters that shape how business gets done.",
+            source: SITE.name,
           },
         ]}
       />
 
-      {/* Our people — editorial split, image on the right */}
+      {/* Our people: editorial split, image on the right */}
       <EditorialSection
         eyebrow="Our People"
         title="Partner-led teams. Long-running mandates. Clear ownership."
         body={[
           "We field partner-led teams across corporate, finance, disputes, energy, tax, and investigations.",
-          "Associates and counsel are developed deliberately, so clients see continuity on the matters that matter — and so the partner you brief is the partner you hear from.",
+          "Associates and counsel are developed deliberately, so clients see continuity on the matters that matter, and so the partner you brief is the partner you hear from.",
         ]}
         ctas={[
           { label: "Meet the team", href: "/our-people", primary: true },

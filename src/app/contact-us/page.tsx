@@ -8,7 +8,7 @@ const PRACTICE_CONTACTS: Array<{ id: string; label: string; description: string 
     id: "new-mandates",
     label: "New mandates",
     description:
-      "For transactions, advisory work, or disputes — share a brief outline of the matter and we will confirm scope and a senior point of contact within one business day.",
+      "For transactions, advisory work, or disputes, share a brief outline of the matter and we will confirm scope and a senior point of contact within one business day.",
   },
   {
     id: "media",

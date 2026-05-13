@@ -107,8 +107,8 @@ export default function PublicationsPage() {
         eyebrow="Publications"
         title="Knowledge Centre"
         intro={[
-          "View our publications across Nigerian commercial law — written by the partners and senior associates who lead the matters.",
-          "Each piece is action-oriented: what changed, who is affected in Nigeria, and what to do next within typical compliance timelines.",
+          "View our publications across Service law, written by the partners and senior associates who lead the matters.",
+          "Each piece is action-oriented: what changed, who is affected, and what to do next within typical compliance timelines.",
         ]}
         contentWidth="wide"
       >
@@ -141,7 +141,7 @@ export default function PublicationsPage() {
             <div className="-mx-6 mb-12 md:-mx-10 lg:-mx-12">
               <SectionBanner
                 title="Publications"
-                body="Briefings and long-form analysis on Nigerian regulatory, transactional, and disputes work — written so in-house teams can act on them."
+                body="Briefings and long-form analysis on regulatory, transactional, and disputes work, written so in-house teams can act on them."
               />
             </div>
             <div className="grid gap-8 md:grid-cols-2 lg:gap-10">
