@@ -24,11 +24,9 @@ export default function AboutUsPage() {
   const {
     vision,
     mission,
-    stats,
     whatWeDo,
     clientCommitment,
     values,
-    reputation,
     discoverMore,
     responsibleBusiness,
   } = ABOUT_PAGE;
@@ -60,16 +58,7 @@ export default function AboutUsPage() {
           </h2>
         </section>
 
-        <section className="mt-16 grid gap-8 border-y border-black/[0.08] py-12 sm:grid-cols-3 lg:mt-20 lg:py-14">
-          {stats.map((s) => (
-            <div key={s.value} className="text-left">
-              <div className="text-3xl font-semibold text-neutral-900 lg:text-[2.5rem]">{s.value}</div>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-600">{s.label}</p>
-            </div>
-          ))}
-        </section>
-
-        <section className="mt-20 lg:mt-24" id="what-we-do">
+        <section className="mt-20 border-t border-black/[0.08] pt-14 lg:mt-24 lg:pt-16" id="what-we-do">
           <SectionEyebrow>{whatWeDo.eyebrow}</SectionEyebrow>
           <h2 className="mt-4 text-[1.85rem] font-semibold leading-[1.15] text-neutral-900 md:text-[2.1rem] lg:text-[2.4rem]">
             {whatWeDo.title}
@@ -119,7 +108,7 @@ export default function AboutUsPage() {
 
         <section className="mt-20 lg:mt-24" id="values">
           <SectionEyebrow>{values.eyebrow}</SectionEyebrow>
-          <h2 className="mt-4 text-[1.85rem] font-semibold leading-[1.15] text-neutral-900 md:text-[2.1rem] lg:text-[2.4rem]">
+          <h2 className="mt-4 text-[1.85rem] font-extrabold leading-[1.15] text-neutral-900 md:text-[2.1rem] lg:text-[2.4rem]">
             {values.title}
           </h2>
           <div className="mt-10 grid gap-8 sm:grid-cols-2 md:gap-10 lg:grid-cols-4">
@@ -133,29 +122,6 @@ export default function AboutUsPage() {
               </div>
             ))}
           </div>
-        </section>
-
-        <section className="mt-20 border-t border-black/[0.08] pt-14 lg:mt-24 lg:pt-16" id="reputation">
-          <SectionEyebrow>{reputation.eyebrow}</SectionEyebrow>
-          <h2 className="mt-4 text-[1.85rem] font-semibold leading-[1.15] text-neutral-900 md:text-[2.1rem] lg:text-[2.4rem]">
-            {reputation.title}
-          </h2>
-          <ul className="mt-10 grid gap-8 md:grid-cols-2 md:gap-10">
-            {reputation.quotes.map((q, idx) => (
-              <li
-                key={idx}
-                className="border-t border-black/[0.08] pt-6 text-[16px] leading-[1.7] text-neutral-700"
-              >
-                <span aria-hidden className="mr-1 select-none text-2xl font-semibold text-[#c41e3a]">
-                  &ldquo;
-                </span>
-                {q}
-                <span aria-hidden className="ml-1 select-none text-2xl font-semibold text-[#c41e3a]">
-                  &rdquo;
-                </span>
-              </li>
-            ))}
-          </ul>
         </section>
 
         <section

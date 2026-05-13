@@ -18,8 +18,7 @@ export default function InsightsPage() {
         eyebrow="Media and Insights"
         title="Insights"
         intro={[
-          "Updates, events, legal alerts, and publications from our team, written for clients who need to act, not just be informed.",
-          "Each piece is reviewed by a lead practitioner with first-hand experience across our practice areas.",
+          "Updates, events, legal alerts, and publications from our team, written for clients who need to act, not just be informed. Each piece is reviewed by a lead practitioner with first-hand experience across our practice areas.",
         ]}
         contentWidth="wide"
       >

@@ -72,12 +72,12 @@ export const INSIGHTS: InsightArticle[] = [
       {
         name: "NEXTLAW Real Estate Team",
         role: "Real Estate",
-        email: "realestate@nextlawpractice.com",
+        email: "contact@nextlawpractice.com",
       },
     ],
     practiceContact: {
       label: "NEXTLAW Real Estate Practice",
-      email: "realestate@nextlawpractice.com",
+      email: "contact@nextlawpractice.com",
     },
   },
   {
@@ -103,12 +103,12 @@ export const INSIGHTS: InsightArticle[] = [
       {
         name: "NEXTLAW Energy and Natural Resources Team",
         role: "Energy and Natural Resources",
-        email: "energy@nextlawpractice.com",
+        email: "contact@nextlawpractice.com",
       },
     ],
     practiceContact: {
       label: "NEXTLAW Energy and Natural Resources Practice",
-      email: "energy@nextlawpractice.com",
+      email: "contact@nextlawpractice.com",
     },
   },
 ];

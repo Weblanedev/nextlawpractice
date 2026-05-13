@@ -10,8 +10,6 @@ export type AboutPillar = {
   body: string;
 };
 
-export type AboutQuote = string;
-
 export const ABOUT_PAGE = {
   eyebrow: "Who We Are",
   title: "At the forefront of full service legal advice",
@@ -33,11 +31,6 @@ export const ABOUT_PAGE = {
     heading:
       "Provide high-quality, commercially grounded advice that solves our clients' business challenges and sets them up for success.",
   },
-  stats: [
-    { value: "Tier 1", label: "ambition across each of our core practice groups." },
-    { value: "Focused", label: "delivery: every mandate is led with clear partner ownership." },
-    { value: "Sector-led", label: "teams aligned to the industries we advise." },
-  ],
   whatWeDo: {
     eyebrow: "What We Do",
     title: "We solve problems",
@@ -100,18 +93,6 @@ export const ABOUT_PAGE = {
           "We work as an extension of our clients, embedding ourselves in their industry and supporting strong ideas from every level of the firm.",
       },
     ],
-  },
-  reputation: {
-    eyebrow: "Our Reputation",
-    title: "What clients tell us",
-    quotes: [
-      "Considered one of the firms that domestic and international clients reach for first on commercial mandates.",
-      "Particularly strong on finance, project, and infrastructure work, acting confidently for both lender and borrower sides.",
-      "Highly capable in contentious work, with broad experience across the courts and in arbitration.",
-      "Clear advice on how to manage risk and avoid pitfalls, with a strong commercial lens applied to legal questions.",
-      "A deep understanding of the regulatory environment and a strong reputation in oil and gas, power, and infrastructure.",
-      "A respected M&A capability that continues to attract significant cross-border work into our markets.",
-    ] as AboutQuote[],
   },
   discoverMore: {
     eyebrow: "Discover More",

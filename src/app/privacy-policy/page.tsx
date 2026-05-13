@@ -351,13 +351,6 @@ export default function PrivacyPolicyPage() {
                 <>
                   Email:{" "}
                   <a
-                    href="mailto:privacy@nextlawpractice.com"
-                    className="font-semibold text-[#c41e3a] hover:text-[#a01830]"
-                  >
-                    privacy@nextlawpractice.com
-                  </a>{" "}
-                  /{" "}
-                  <a
                     href={`mailto:${SITE.contact.email}`}
                     className="font-semibold text-[#c41e3a] hover:text-[#a01830]"
                   >

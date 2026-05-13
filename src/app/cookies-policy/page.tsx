@@ -8,6 +8,7 @@ import {
   LegalSection,
   LegalTable,
 } from "@/components/site/LegalContent";
+import { SITE } from "@/content/site";
 
 export const metadata: Metadata = {
   title: "Cookies Policy",
@@ -216,10 +217,10 @@ export default function CookiesPolicyPage() {
                 <>
                   Email:{" "}
                   <a
-                    href="mailto:privacy@nextlawpractice.com"
+                    href={`mailto:${SITE.contact.email}`}
                     className="font-semibold text-[#c41e3a] hover:text-[#a01830]"
                   >
-                    privacy@nextlawpractice.com
+                    {SITE.contact.email}
                   </a>
                 </>,
                 <>

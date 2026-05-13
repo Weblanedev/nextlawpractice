@@ -79,7 +79,7 @@ export default function ContactUsPage() {
                   Hours
                 </dt>
                 <dd className="mt-2 text-[16px] leading-[1.7] text-neutral-800">
-                  Monday to Friday, 9:00 to 18:00 (local time).
+                  Monday to Friday, 9:00 to 18:00 WAT.
                 </dd>
               </div>
             </dl>
