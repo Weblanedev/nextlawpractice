@@ -18,24 +18,24 @@ const FEATURED_PUBLICATIONS: Array<{
   insightId?: string;
 }> = [
   {
-    id: "upstream-ghg-reporting-2026",
-    insightId: "upstream-ghg-reporting-2026",
+    id: "nuprc-ghg-methane",
+    insightId: "nuprc-ghg-methane",
     date: "13 April 2026",
     category: "Energy and Natural Resources",
     title:
-      "Upstream directive on standardised methane and GHG reporting templates",
+      "NUPRC Issues Directive on Standardised Templates and Measurement-Based Methane and GHG Reporting",
     summary:
-      "Upstream operators must use standardised templates for GHG emissions management planning and report methane and GHG inventories on a measurement basis. The Directive shifts upstream emissions oversight to an auditable, evidence-driven framework.",
+      "On 13 April 2026, the Nigerian Upstream Petroleum Regulatory Commission issued a Directive requiring upstream operators to adopt standardised templates for greenhouse gas emissions management planning and to report methane and GHG inventories on a measurement basis. The Directive shifts upstream emissions oversight from policy-level expectations to an auditable, evidence-driven framework.",
     imageKey: "land",
   },
   {
-    id: "land-fmv-schedule-2026",
-    insightId: "land-fmv-schedule-2026",
+    id: "lagos-blue-book-2026",
+    insightId: "lagos-blue-book-2026",
     date: "29 April 2026",
     category: "Real Estate",
-    title: "Fair market value schedule updated for land transactions",
+    title: "Lagos State Blue Book to Take Effect from 1 May 2026",
     summary:
-      "Following a periodic review, revised fair market value rates take effect from 1 May 2026, affecting consent fees, registration premiums, property charges, and compensation benchmarks tied to published schedules.",
+      "Following its five-year review of the Blue Book, the Lagos State Lands Bureau will roll out revised FMV rates from 1 May 2026, affecting Governor's Consent fees, land registration premiums, land use charge, and compensation across the State.",
     imageKey: "houseForSale",
   },
   {
