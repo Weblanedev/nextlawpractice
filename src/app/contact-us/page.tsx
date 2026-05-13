@@ -16,12 +16,6 @@ const PRACTICE_CONTACTS: Array<{ id: string; label: string; description: string 
     description:
       "For interview requests, commentary, and press enquiries, please write directly to our communications team and mark your message for the attention of Media Relations.",
   },
-  {
-    id: "careers",
-    label: "Careers",
-    description:
-      "For lateral, trainee, and NYSC enquiries, send a CV and a short note about your interests — applications are handled confidentially.",
-  },
 ];
 
 export default function ContactUsPage() {
@@ -118,7 +112,7 @@ export default function ContactUsPage() {
             Most enquiries come through the channels below. If you are not sure where your matter fits,
             send a short note and our client team will guide you to the right specialist.
           </p>
-          <div className="mt-10 grid gap-8 md:grid-cols-3 md:gap-10">
+          <div className="mt-10 grid gap-8 md:grid-cols-2 md:gap-10">
             {PRACTICE_CONTACTS.map((c) => (
               <div key={c.id} className="border-t-2 border-neutral-900 pt-5">
                 <h3 className="text-[1.1rem] font-semibold text-neutral-900">{c.label}</h3>

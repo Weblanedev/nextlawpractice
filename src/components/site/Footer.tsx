@@ -40,7 +40,7 @@ export function Footer() {
       </div>
 
       <div className="border-t border-white/10 bg-[#141414]">
-        <div className="mx-auto flex w-full max-w-[1180px] flex-wrap items-center gap-x-4 gap-y-2 px-6 py-5 text-[12px] text-neutral-400 md:px-10 lg:px-12">
+        <div className="mx-auto flex w-full max-w-[1180px] flex-wrap items-center justify-center gap-x-4 gap-y-2 px-6 py-5 text-center text-[12px] text-neutral-400 md:px-10 lg:px-12">
           <span className="font-medium text-neutral-300">
             Copyright &copy; {year} {SITE.name}
           </span>
