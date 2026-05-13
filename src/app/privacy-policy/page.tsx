@@ -12,9 +12,10 @@ import {
 import { SITE } from "@/content/site";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | NEXTLAW",
+  title: "Privacy Policy",
   description:
     "How NEXTLAW collects, uses, shares, and protects personal data under the Nigeria Data Protection Act, 2023 and other applicable data protection laws.",
+  alternates: { canonical: "/privacy-policy" },
 };
 
 export default function PrivacyPolicyPage() {
@@ -31,7 +32,7 @@ export default function PrivacyPolicyPage() {
         <LegalDoc lastUpdated="May 2026">
           <LegalSection id="who-we-are" heading="1. Who we are">
             <p>
-              {SITE.name} is a Service law firm. We are committed to protecting your
+              {SITE.name} is a full service law firm. We are committed to protecting your
               privacy and to processing your personal data in line with the Applicable Data
               Protection Law (defined in Section 22 below). References in this policy to “we”,
               “us”, “our” or the “Firm” are to {SITE.name}; references to “you” are to any natural
@@ -362,9 +363,6 @@ export default function PrivacyPolicyPage() {
                   >
                     {SITE.contact.email}
                   </a>
-                </>,
-                <>
-                  Post: {SITE.name}, {SITE.contact.addressLine}.
                 </>,
                 <>
                   Telephone:{" "}

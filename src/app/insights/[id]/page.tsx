@@ -26,6 +26,7 @@ export async function generateMetadata({
   return {
     title: `${article.title} | NEXTLAW`,
     description: article.summary,
+    alternates: { canonical: `/insights/${id}` },
   };
 }
 
@@ -58,7 +59,7 @@ export default async function InsightArticlePage({
       <main className="min-w-0 bg-[#fafaf8] pb-16">
         <SectionBanner
           title="News & Events"
-          body="Updates, alerts, and analysis from our team across Service law."
+          body="Updates, alerts, and analysis from our team across our practice areas."
         />
 
         <div className="border-b border-black/10 bg-white">
@@ -239,22 +240,18 @@ export default async function InsightArticlePage({
               </Link>
             </div>
             <div>
-              <div className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#c41e3a]">
-                Sign up for our newsletter
-              </div>
-              <h3 className="mt-3 font-serif text-2xl font-semibold text-neutral-900">
-                Stay informed
+              <h3 className="font-serif text-2xl font-semibold text-neutral-900">
+                Occasional notes by email
               </h3>
               <p className="mt-4 text-[15px] leading-relaxed text-neutral-700">
-                Receive our regulatory and transactional updates by email, with no marketing, just the
-                substance.
+                From time to time we may share short notes on trends across our practices.
               </p>
               <form className="mt-6 flex gap-2">
-                <label htmlFor="newsletter-email" className="sr-only">
+                <label htmlFor="insight-updates-email" className="sr-only">
                   Email address
                 </label>
                 <input
-                  id="newsletter-email"
+                  id="insight-updates-email"
                   type="email"
                   placeholder="you@company.com"
                   className="min-w-0 flex-1 rounded-md border border-black/15 bg-white px-3 py-2 text-sm outline-none focus:border-black"
@@ -263,7 +260,7 @@ export default async function InsightArticlePage({
                   type="submit"
                   className="rounded-md bg-[#c41e3a] px-4 py-2 text-sm font-semibold text-white hover:bg-[#a01830]"
                 >
-                  Subscribe
+                  Request updates
                 </button>
               </form>
             </div>

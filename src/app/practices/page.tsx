@@ -1,8 +1,16 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { PageShell } from "@/components/site/PageShell";
 import { ContentLayout } from "@/components/site/ContentLayout";
 import { AccordionSection } from "@/components/site/AccordionSection";
 import { PRACTICES_PAGE } from "@/content/pages/practices";
+
+export const metadata: Metadata = {
+  title: "Practices",
+  description:
+    "NEXTLAW practice groups: banking and finance, capital markets, corporate and commercial, disputes, energy, real estate, tax, technology, and more.",
+  alternates: { canonical: "/practices" },
+};
 
 export default function PracticesPage() {
   return (
@@ -24,7 +32,7 @@ export default function PracticesPage() {
             Sectors and insights
           </h2>
           <p className="mt-4 max-w-[640px] text-[15px] leading-relaxed text-neutral-700">
-            Explore the industries we advise and our latest publications and alerts across Service law.
+            Explore the industries we advise and our latest publications and alerts across our practice areas.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <Link

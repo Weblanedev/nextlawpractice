@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { PageShell } from "@/components/site/PageShell";
@@ -7,7 +8,7 @@ import { getPublications } from "@/data/publications";
 import { themedImage, type ThemedImageKey } from "@/content/themedImages";
 import { INSIGHTS } from "@/data/insights";
 
-const PLACEHOLDER_PUBLICATIONS: Array<{
+const FEATURED_PUBLICATIONS: Array<{
   id: string;
   title: string;
   date: string;
@@ -93,6 +94,13 @@ const PLACEHOLDER_PUBLICATIONS: Array<{
   },
 ];
 
+export const metadata: Metadata = {
+  title: "Publications",
+  description:
+    "NEXTLAW publications and knowledge centre: alerts, digests, and long-form analysis across our practice areas, written by the lawyers leading the matters.",
+  alternates: { canonical: "/publications" },
+};
+
 export default function PublicationsPage() {
   const datasourcePubs = getPublications();
   const publications = datasourcePubs.length ? datasourcePubs : null;
@@ -107,7 +115,7 @@ export default function PublicationsPage() {
         eyebrow="Publications"
         title="Knowledge Centre"
         intro={[
-          "View our publications across Service law, written by the partners and senior associates who lead the matters.",
+          "View our publications across our practice areas, written by the partners and senior associates who lead the matters.",
           "Each piece is action-oriented: what changed, who is affected, and what to do next within typical compliance timelines.",
         ]}
         contentWidth="wide"
@@ -145,7 +153,7 @@ export default function PublicationsPage() {
               />
             </div>
             <div className="grid gap-8 md:grid-cols-2 lg:gap-10">
-              {PLACEHOLDER_PUBLICATIONS.map((p) => {
+              {FEATURED_PUBLICATIONS.map((p) => {
                 const img = themedImage(p.imageKey);
                 const insightId = p.insightId && linkedInsightIds.has(p.insightId) ? p.insightId : null;
                 const cardClass =

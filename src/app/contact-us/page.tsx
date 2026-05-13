@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { ContactUsForm } from "@/components/forms/ContactUsForm";
 import { PageShell } from "@/components/site/PageShell";
 import { ContentLayout } from "@/components/site/ContentLayout";
@@ -18,6 +19,13 @@ const PRACTICE_CONTACTS: Array<{ id: string; label: string; description: string 
   },
 ];
 
+export const metadata: Metadata = {
+  title: "Contact",
+  description:
+    "Contact NEXTLAW for new mandates, media enquiries, or general questions. Full service corporate, finance, disputes, energy, tax, and technology advice in Nigeria.",
+  alternates: { canonical: "/contact-us" },
+};
+
 export default function ContactUsPage() {
   return (
     <PageShell>
@@ -33,21 +41,13 @@ export default function ContactUsPage() {
         <section className="grid gap-12 md:grid-cols-[1fr_1.1fr] md:gap-14 lg:gap-16">
           <div>
             <div className="text-[11px] font-semibold uppercase tracking-[0.3em] text-[#c41e3a]">
-              Our Location
+              Get in touch
             </div>
             <h2 className="mt-3 text-[1.85rem] font-semibold leading-[1.15] text-neutral-900 lg:text-[2.1rem]">
-              Lagos office
+              Contact details
             </h2>
 
             <dl className="mt-8 grid gap-7">
-              <div>
-                <dt className="text-[11px] font-semibold uppercase tracking-[0.22em] text-neutral-500">
-                  Address
-                </dt>
-                <dd className="mt-2 text-[16px] leading-[1.7] text-neutral-800">
-                  {SITE.contact.addressLine}
-                </dd>
-              </div>
               <div>
                 <dt className="text-[11px] font-semibold uppercase tracking-[0.22em] text-neutral-500">
                   Telephone

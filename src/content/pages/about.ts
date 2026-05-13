@@ -10,18 +10,13 @@ export type AboutPillar = {
   body: string;
 };
 
-export type AboutAward = {
-  title: string;
-  source: string;
-};
-
 export type AboutQuote = string;
 
 export const ABOUT_PAGE = {
   eyebrow: "Who We Are",
-  title: "At the forefront of Service law",
+  title: "At the forefront of full service legal advice",
   intro: [
-    "NEXTLAW is a Service law firm, advising clients across sectors to provide practical and insightful solutions to their most pressing business challenges.",
+    "NEXTLAW is a full service law firm, advising clients across sectors to provide practical and insightful solutions to their most pressing business challenges.",
     "We apply initiative thinking to develop commercially grounded advice for business leaders, regulated institutions, and disruptors operating in demanding markets.",
     "Our clients include global and regional businesses, market disruptors, and some of the most exciting growth companies in our markets. We advise energy firms, leading financial institutions, manufacturers, technology businesses, and a broad range of other clients, and we act on the most significant transactions and disputes we see.",
   ],
@@ -105,17 +100,6 @@ export const ABOUT_PAGE = {
           "We work as an extension of our clients, embedding ourselves in their industry and supporting strong ideas from every level of the firm.",
       },
     ],
-  },
-  awards: {
-    eyebrow: "Awards",
-    title: "A growing track record of recognised work",
-    items: [
-      { title: "Banking and Finance (Recognised)", source: "Leading Directories" },
-      { title: "Capital Markets (Recognised)", source: "Leading Directories" },
-      { title: "Energy and Natural Resources (Recognised)", source: "Leading Directories" },
-      { title: "Dispute Resolution (Recognised)", source: "Leading Directories" },
-      { title: "Mergers and Acquisitions (Recognised)", source: "Leading Directories" },
-    ] as AboutAward[],
   },
   reputation: {
     eyebrow: "Our Reputation",

@@ -15,19 +15,19 @@ export function Footer() {
     <footer className="mt-20 w-full bg-[#1a1a1a] text-white lg:mt-24">
       <div className="mx-auto w-full max-w-[1180px] px-6 pb-10 pt-12 md:px-10 lg:px-12 lg:pb-12 lg:pt-16">
         <div className="text-[11px] font-semibold uppercase tracking-[0.32em] text-neutral-400">
-          Get in touch
+          Stay Connected
         </div>
-        <h2 className="mt-3 text-2xl font-semibold tracking-wide text-white">CONTACT US</h2>
+        <p className="mt-4 max-w-[640px] text-[15px] leading-[1.65] text-neutral-300">
+          Leave your email if you would like occasional short notes on trends and developments in
+          our practice areas.
+        </p>
 
-        <div className="mt-7">
-          <div className="text-[11px] font-semibold uppercase tracking-[0.22em] text-neutral-400">
-            Sign up for our newsletter
-          </div>
+        <div className="mt-8">
           <NewsletterFormFooter />
         </div>
 
         <p className="mt-10 max-w-[860px] text-[14px] leading-[1.7] text-neutral-300 lg:mt-12">
-          NEXTLAW is a Service law firm. Our practice areas include
+          NEXTLAW is a full service law firm. Our practice areas include
           banking and finance, capital markets, corporate and commercial, dispute resolution,
           energy and natural resources, real estate, tax, and technology. Contact our team to
           discuss your matter.

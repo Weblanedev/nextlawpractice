@@ -14,7 +14,7 @@ export const INSIGHTS_PAGE: PageContent = {
       title: "News and Events",
       body: [
         "Headline mandates, recognitions, and senior team updates from across the firm.",
-        "Public-facing announcements covering significant transactions, awards, and market developments will appear here as they are released.",
+        "Coverage includes firm news, significant mandates, directory recognition, and market commentary where we add client value.",
       ],
     },
     {
@@ -43,7 +43,7 @@ export const INSIGHTS_PAGE: PageContent = {
       imageKey: "consultation",
       title: "Insight Videos",
       body: [
-        "Conversations with our senior lawyers and invited specialists on practical issues across Service law.",
+        "Conversations with our senior lawyers and invited specialists on practical issues across our practice areas.",
         "Recurring themes include regulator engagement, sector outlooks, governance, and emerging risk topics for in-house counsel and boards.",
       ],
     },
@@ -64,7 +64,7 @@ export const INSIGHTS_PAGE: PageContent = {
       title: "Speaking and Events",
       body: [
         "Conference appearances, panels, and roundtables hosted or attended by our partners and senior associates.",
-        "Listings will include event dates, topics, and registration details where applicable.",
+        "Each listing summarises the topic, audience, and how to register or follow up where registration applies.",
       ],
     },
   ],

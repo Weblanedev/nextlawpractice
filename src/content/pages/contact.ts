@@ -9,11 +9,11 @@ export const CONTACT_PAGE: PageContent = {
   sections: [
     {
       id: "lagos-office",
-      eyebrow: "Lagos Office",
+      eyebrow: "Offices",
       imageKey: "office",
-      title: "Our Lagos office",
+      title: "Meetings by appointment",
       body: [
-        "Our principal office is located on Lagos Island, with meeting rooms available for client briefings and external advisors.",
+        "Client meetings and briefings are available by prior arrangement, with meeting space for external advisors where needed.",
         "Visitors should pre-arrange appointments to streamline access and conflict checks.",
       ],
     },

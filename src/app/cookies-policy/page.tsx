@@ -10,9 +10,10 @@ import {
 } from "@/components/site/LegalContent";
 
 export const metadata: Metadata = {
-  title: "Cookies Policy | NEXTLAW",
+  title: "Cookies Policy",
   description:
     "How NEXTLAW uses cookies and similar technologies on this website, and how you can control them.",
+  alternates: { canonical: "/cookies-policy" },
 };
 
 export default function CookiesPolicyPage() {

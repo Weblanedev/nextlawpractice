@@ -3,14 +3,13 @@ export const SITE = {
   displayName: "Next law",
   /** Canonical site URL used for absolute Open Graph URLs and sitemap entries. */
   url: "https://nextlawpractice.com",
-  tagline: "A Service law firm.",
+  tagline: "A full service law firm.",
   description:
-    "NEXTLAW is a Service law firm. We advise on banking and finance, corporate and commercial, dispute resolution, energy and natural resources, real estate, tax, and technology, combining rigorous technical work with practical judgment.",
+    "NEXTLAW is a full service law firm. We advise on banking and finance, corporate and commercial, dispute resolution, energy and natural resources, real estate, tax, and technology, combining rigorous technical work with practical judgment.",
   contact: {
     phoneDisplay: "+234-809-108-2144",
     phoneE164: "+2348091082144",
     email: "contact@nextlawpractice.com",
-    addressLine: "1 Adedeji Adekola Street, Off Freedom Way, Lekki Phase 1",
   },
 } as const;
 

@@ -174,7 +174,7 @@ export function InsightsList() {
         </div>
       ) : !featured ? (
         <div className="rounded-2xl border border-black/[0.08] bg-white p-10 text-center text-neutral-600">
-          No articles in this category yet. New publications will appear here as they are released.
+          No articles in this category. Try another filter or view all insights.
         </div>
       ) : null}
     </div>

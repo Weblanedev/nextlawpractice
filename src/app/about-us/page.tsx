@@ -1,8 +1,16 @@
+import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import Link from "next/link";
 import { PageShell } from "@/components/site/PageShell";
 import { ContentLayout } from "@/components/site/ContentLayout";
 import { ABOUT_PAGE } from "@/content/pages/about";
+
+export const metadata: Metadata = {
+  title: "About Us",
+  description:
+    "Learn about NEXTLAW: a full service law firm advising on corporate, finance, disputes, energy, real estate, tax, and technology across Nigeria.",
+  alternates: { canonical: "/about-us" },
+};
 
 function SectionEyebrow({ children }: { children: ReactNode }) {
   return (
@@ -20,7 +28,6 @@ export default function AboutUsPage() {
     whatWeDo,
     clientCommitment,
     values,
-    awards,
     reputation,
     discoverMore,
     responsibleBusiness,
@@ -128,28 +135,7 @@ export default function AboutUsPage() {
           </div>
         </section>
 
-        <section className="mt-20 border-t border-black/[0.08] pt-14 lg:mt-24 lg:pt-16" id="awards">
-          <SectionEyebrow>{awards.eyebrow}</SectionEyebrow>
-          <h2 className="mt-4 text-[1.85rem] font-semibold leading-[1.15] text-neutral-900 md:text-[2.1rem] lg:text-[2.4rem]">
-            {awards.title}
-          </h2>
-          <h3 className="mt-8 text-[11px] font-semibold uppercase tracking-[0.28em] text-neutral-500">
-            Our Recent Recognition
-          </h3>
-          <ul className="mt-5 grid gap-3 sm:grid-cols-2">
-            {awards.items.map((a) => (
-              <li
-                key={a.title}
-                className="border-l-2 border-[#c41e3a] py-3 pl-5"
-              >
-                <div className="text-[15px] font-semibold text-neutral-900">{a.title}</div>
-                <div className="mt-1 text-xs font-medium tracking-wide text-neutral-500">{a.source}</div>
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        <section className="mt-20 lg:mt-24" id="reputation">
+        <section className="mt-20 border-t border-black/[0.08] pt-14 lg:mt-24 lg:pt-16" id="reputation">
           <SectionEyebrow>{reputation.eyebrow}</SectionEyebrow>
           <h2 className="mt-4 text-[1.85rem] font-semibold leading-[1.15] text-neutral-900 md:text-[2.1rem] lg:text-[2.4rem]">
             {reputation.title}

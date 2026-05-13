@@ -10,9 +10,10 @@ import {
 import { SITE } from "@/content/site";
 
 export const metadata: Metadata = {
-  title: "Terms of Use | NEXTLAW",
+  title: "Terms of Use",
   description:
     "Terms governing your use of the NEXTLAW website and the information made available through it.",
+  alternates: { canonical: "/terms-of-use" },
 };
 
 export default function TermsOfUsePage() {
@@ -29,8 +30,7 @@ export default function TermsOfUsePage() {
         <LegalDoc lastUpdated="May 2026">
           <LegalSection heading="1. About this website">
             <p>
-              This website is operated by {SITE.name}, a Service law firm with its
-              principal office at {SITE.contact.addressLine}. References in these terms to “we”,
+              This website is operated by {SITE.name}, a full service law firm. References in these terms to “we”,
               “us”, “our” or the “Firm” are to {SITE.name}. References to “you” are to any natural
               or legal person accessing this website.
             </p>
@@ -163,14 +163,14 @@ export default function TermsOfUsePage() {
 
           <LegalSection heading="11. Contact us">
             <p>
-              For any question concerning these terms, you can reach us at{" "}
+              For any question concerning these terms, please contact us at{" "}
               <a
                 href={`mailto:${SITE.contact.email}`}
                 className="font-semibold text-[#c41e3a] hover:text-[#a01830]"
               >
                 {SITE.contact.email}
-              </a>{" "}
-              or write to us at {SITE.contact.addressLine}.
+              </a>
+              .
             </p>
           </LegalSection>
         </LegalDoc>

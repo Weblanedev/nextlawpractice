@@ -84,8 +84,7 @@ export function MobileNav() {
             </ul>
 
             <div className="mt-auto w-full border-t border-black/10 bg-white/60 px-6 py-6 text-center text-xs leading-relaxed text-neutral-700">
-              <div>{SITE.contact.addressLine}</div>
-              <div className="mt-2 flex flex-col items-center gap-1">
+              <div className="flex flex-col items-center gap-1">
                 <a href={`tel:${SITE.contact.phoneE164}`} className="font-semibold">
                   {SITE.contact.phoneDisplay}
                 </a>

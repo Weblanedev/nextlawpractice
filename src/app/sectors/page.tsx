@@ -1,8 +1,16 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { PageShell } from "@/components/site/PageShell";
 import { ContentLayout } from "@/components/site/ContentLayout";
 import { AccordionSection } from "@/components/site/AccordionSection";
 import { SECTORS_PAGE } from "@/content/pages/sectors";
+
+export const metadata: Metadata = {
+  title: "Sectors",
+  description:
+    "Industries NEXTLAW advises: energy, power, financial services, technology, infrastructure, consumer, healthcare, and other sectors across Nigeria and cross-border work.",
+  alternates: { canonical: "/sectors" },
+};
 
 export default function SectorsPage() {
   return (

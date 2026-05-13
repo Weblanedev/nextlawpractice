@@ -144,7 +144,7 @@ export function HomePageBody() {
         <section className="mt-14 border-t border-black/10 pt-16">
           <SectionEyebrow>News and publications</SectionEyebrow>
           <h2 className="mt-4 max-w-[820px] font-serif text-[2rem] font-semibold leading-[1.15] text-neutral-900 md:text-[2.5rem] lg:text-[2.75rem]">
-            What we are reading, writing, and watching across Service law.
+            Featured insights
           </h2>
 
           <div className="mt-12 grid gap-10 md:grid-cols-2">
@@ -191,8 +191,8 @@ export function HomePageBody() {
           "We combine rigorous technical work with practical judgment, so decisions hold up under scrutiny from boards, regulators, and counterparties, and so clients can act on advice, not just receive it.",
         ]}
         ctas={[
-          { label: "Who we are", href: "/about-us", primary: true },
-          { label: "Responsible business", href: "/about-us#responsible-business" },
+          { label: "Who we are", href: "/about-us" },
+          // { label: "Responsible business", href: "/about-us#responsible-business" },
         ]}
         imageIndex={5}
         imageSide="right"
@@ -223,8 +223,8 @@ export function HomePageBody() {
           "Associates and counsel are developed deliberately, so clients see continuity on the matters that matter, and so the partner you brief is the partner you hear from.",
         ]}
         ctas={[
-          { label: "Meet the team", href: "/our-people", primary: true },
-          { label: "Attorney directory", href: "/attorneys" },
+          { label: "Meet the team", href: "/our-people" },
+          // { label: "Attorney directory", href: "/attorneys" },
         ]}
         imageIndex={4}
         imageSide="right"

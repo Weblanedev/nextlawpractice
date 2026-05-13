@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { ToasterProvider } from "@/components/ToasterProvider";
+import { CookieConsentBanner } from "@/components/site/CookieConsentBanner";
 import { SITE } from "@/content/site";
 
 export const metadata: Metadata = {
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   applicationName: SITE.name,
   generator: "Next.js",
   keywords: [
-    "Service law firm",
+    "full service law firm",
     "corporate lawyers",
     "banking and finance law",
     "dispute resolution",
@@ -89,6 +90,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {children}
+        <CookieConsentBanner />
         <ToasterProvider />
       </body>
     </html>

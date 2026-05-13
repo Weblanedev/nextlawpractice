@@ -5,14 +5,14 @@ export const OUR_PEOPLE_PAGE: PageContent = {
   intro: [
     "Global expertise in diverse areas of domestic and cross-border law.",
     "Our team combines rigorous legal craft with commercial awareness, built around strong drafting, careful issue-spotting, and client-first delivery.",
-    "Profiles and headshots will be updated as final images and biographies are approved for publication.",
+    "We organise teams by sector and work type so clients have continuity and direct access to the lawyers carrying the file.",
   ],
   sections: [
     {
       id: "leadership",
       eyebrow: "Leadership",
       imageKey: "office",
-      title: "A leadership team shaping Service law",
+      title: "A leadership team shaping strategy for ambitious clients",
       body: [
         "Our partners and senior counsel lead complex matters across corporate, finance, energy, disputes, and technology, with hands-on involvement from instruction to closing.",
         "Each engagement has a clearly identified partner-in-charge accountable for quality, timing, and client communication.",
@@ -54,8 +54,8 @@ export const OUR_PEOPLE_PAGE: PageContent = {
       imageKey: "scrabble",
       title: "Direct contact with the right team",
       body: [
-        "Lawyer directory listings with practice group, position, and direct contact channels will appear here as profiles are approved.",
-        "In the meantime, our central client team can route enquiries to the right specialist within one business day.",
+        "The directory groups lawyers by practice and role so you can reach the right specialist.",
+        "Our central client team routes new enquiries to the appropriate practice group within one business day.",
       ],
     },
   ],

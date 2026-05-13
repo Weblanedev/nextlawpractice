@@ -1,5 +1,5 @@
 /**
- * Homepage section copy: structure inspired by leading Service law firm
+ * Homepage section copy: structure inspired by leading full service law firm
  * homepages, with original NEXTLAW wording.
  */
 

@@ -18,7 +18,7 @@ export function NewsletterFormFooter() {
     setPending(true);
     try {
       await submitNetlifyForm(form).catch(() => {});
-      toast.success("You are subscribed to our newsletter.");
+      toast.success("Thank you. We may email you occasional practice-area updates.");
       setModalOpen(true);
       form.reset();
     } finally {
@@ -44,7 +44,7 @@ export function NewsletterFormFooter() {
           type="email"
           required
           disabled={pending}
-          placeholder="Your email address"
+          placeholder="Your work email"
           className="min-w-0 flex-1 rounded-md border border-white/15 bg-white/[0.06] px-3 py-2.5 text-sm text-white placeholder:text-neutral-500 focus:border-white/40 focus:outline-none disabled:opacity-60"
         />
         <button
@@ -52,15 +52,15 @@ export function NewsletterFormFooter() {
           disabled={pending}
           className="inline-flex shrink-0 items-center justify-center rounded-md bg-[#1f8fe0] px-4 py-2.5 text-sm font-semibold text-white hover:bg-[#1a7ec6] disabled:cursor-not-allowed disabled:opacity-60"
         >
-          {pending ? "Subscribing…" : "Subscribe Now"}
+          {pending ? "Sending…" : "Request updates"}
         </button>
       </form>
 
       <SuccessModal
         open={modalOpen}
         onClose={() => setModalOpen(false)}
-        title="You are on the list"
-        message="Thanks for subscribing. You will hear from us with updates and insights."
+        title="Thank you"
+        message="We have your details. From time to time we may write with short notes on trends across our practice areas. You can ask us to stop at any time."
       />
     </>
   );
