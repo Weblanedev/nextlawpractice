@@ -106,10 +106,10 @@ export default function ContactUsPage() {
               className="mt-8 grid gap-5"
               name="contact-form"
               method="POST"
-              data-netlify="true"
-              action="/contact-us"
+              action="/__forms.html"
             >
               <input type="hidden" name="form-name" value="contact-form" />
+              <input type="hidden" name="redirect" value="/contact-us?sent=1" />
 
               <div className="grid gap-2">
                 <label

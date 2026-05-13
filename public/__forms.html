@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Netlify Forms (build-time detection only)</title>
+  </head>
+  <body>
+    <!--
+      OpenNext / @netlify/plugin-nextjs v5: forms must be declared in static HTML
+      so Netlify can detect fields at deploy. Users never see this page.
+      https://opennext.js.org/netlify/forms
+    -->
+    <form name="contact-form" method="POST" data-netlify="true" hidden>
+      <input type="hidden" name="form-name" value="contact-form" />
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="company" />
+      <input type="text" name="subject" />
+      <textarea name="message"></textarea>
+    </form>
+    <form name="newsletter-form" method="POST" data-netlify="true" hidden>
+      <input type="hidden" name="form-name" value="newsletter-form" />
+      <input type="email" name="email" />
+    </form>
+  </body>
+</html>

@@ -25,10 +25,11 @@ export function Footer() {
           <form
             className="mt-4 flex w-full max-w-md flex-col gap-3 sm:flex-row sm:items-stretch"
             method="POST"
-            action="/contact-us"
+            action="/__forms.html"
             name="newsletter-form"
           >
             <input type="hidden" name="form-name" value="newsletter-form" />
+            <input type="hidden" name="redirect" value="/" />
             <label htmlFor="newsletter-email" className="sr-only">
               Email
             </label>
